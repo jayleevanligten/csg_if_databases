@@ -11,8 +11,9 @@
     --danger:#dc3545;
     --light:#f8f9fa;
     --dark:#343a40;
-
+    --blue: #1664BB;
     --roze: #c41e80;
+    --red: #C51A1A;
 }
 
 html,body {
@@ -41,20 +42,20 @@ header, section, footer, aside, nav, main, article, figure {
 body {
     margin-left: 5%;
     margin-right: 5%;
-    background-color: var(--dark);
+    background-color: var(--blue);
 }
 
 .footer-copyright {
-    background-color: var(--primary);
+    background-color: var(--red);
 }
 
 h1 {
     font-family: 'Arial', sans;
-    color: var(--danger);
+    color: var(--red);
 }
 
 h3 {
-    color: var(--danger);
+    color: var(--red);
 }
 
 h4 {

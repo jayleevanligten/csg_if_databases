@@ -63,7 +63,7 @@ else {
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">CoroNews</h1>
-                <h2 class="display-3">Updates over de situatie rond het Coronavirus.</h2>
+                <h2 class="display-3">Updates over het Coronavirus.</h2>
             </div>
         </div>
     </header>

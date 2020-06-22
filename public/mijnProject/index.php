@@ -59,7 +59,19 @@ if ($volgende > $aantalFotos) {
 echo '<a href="?nr='.$vorige.'"><button type="submit" class="btn btn-secondary mb-2">&#8592;</button></a>';
 echo " <strong>$fotoNummer</strong> ";
 echo '<a href="?nr='.$volgende.'"><button type="submit" class="btn btn-secondary mb-2">&#8594;</button></a>';
+$_SESSION["fotoNummer"] = "$fotoNummer";
 ?>
+
+<?php if ($_SESSION["user"]) { ?>
+    <div class="container">
+        <label for="comment">Reactie toevoegen:</label>
+        <form action="php/reacties.php" method="post">
+        <textarea name="reactie" rows="4" cols="25"></textarea>
+        <input type="submit">
+        </form>
+    </div>
+    <br>
+<?php } ?>
 
 <?php
 if ($reacties == []) {

@@ -4,7 +4,7 @@ $paginaType = 'prive';
 require('php/header.php');
 ?>
 
-<h1>Dit is een private pagina.</h1>
+<h1>Dit is jouw private pagina.</h1>
 
 <?php
 require('php/footer.php');

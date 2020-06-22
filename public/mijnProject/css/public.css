@@ -42,20 +42,22 @@ header, section, footer, aside, nav, main, article, figure {
 body {
     margin-left: 5%;
     margin-right: 5%;
-    background-color: var(--blue);
+    background-color: #313D64;
 }
 
 .footer-copyright {
     background-color: var(--red);
+    font-family: Calibri;
+    color: #343434;
 }
 
 h1 {
-    font-family: 'Arial', sans;
-    color: var(--red);
+    font-family: 'Calibri', sans;
+    color: #A60918;
 }
 
 h3 {
-    color: var(--red);
+    color: #D6BB0F;
 }
 
 h4 {
@@ -63,8 +65,8 @@ h4 {
 }
 
 h6 {
-    font-family: 'Indie Flower', serif;
-    color: var(--light);
+    font-family: 'Arial', serif;
+    color: #474747;
 }
 
 input {
@@ -73,6 +75,8 @@ input {
 
 h2 {
     line-height: 0.2;
+    font-family: Calibri;
+    color: #313D64;
 }
 
 .alert {

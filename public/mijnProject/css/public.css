@@ -57,11 +57,11 @@ h1 {
 }
 
 h3 {
-    color: #D6BB0F;
+    color: var(--light);
 }
 
 h4 {
-    color: var(--roze);
+    color: var(--light);
 }
 
 h6 {

@@ -4,8 +4,8 @@ $paginaType = 'openbaar';
 require('php/header.php');
 ?>
 
-<h1>About CoroNews</h1>
-<p2>Hi! Ik ben Jaylee, de maker van deze website.</p2>
+<h3>About CoroNews</h3>
+<h4>Hi! Ik ben Jaylee, de maker van deze website.
 <br>
 Welkom op de CoroNews site!
 </br>
@@ -24,6 +24,7 @@ Alvast bedankt voor het gebruiken van mijn website!
 </br>
 <br>
 Jaylee
+</h4>
 </br>
 <br>
 </br>

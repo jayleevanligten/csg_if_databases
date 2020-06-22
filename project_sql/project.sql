@@ -37,7 +37,7 @@ CREATE TABLE `accounts` (
 
 LOCK TABLES `accounts` WRITE;
 /*!40000 ALTER TABLE `accounts` DISABLE KEYS */;
-INSERT INTO `accounts` VALUES (1,'meneer van der Veen','vdr@gmail.com','hallo'),(2,'Jaylee van Ligten','jvl@gmail.com','hallo'),(3,'Carlijn Kammenga','ckg@gmail.com','hallo'),(4,'Nicoline van Deemter','nvd@gmail.com','hallo'),(5,'Yasmine Ibrahim','yih@gmail.com','hallo');
+INSERT INTO `accounts` VALUES (1,'meneer van der Veen','vnr@gmail.com','hallo'),(2,'Jaylee van Ligten','jvl@gmail.com','hallo'),(3,'Carlijn Kammenga','ckg@gmail.com','hallo'),(4,'Nicoline van Deemter','nvd@gmail.com','hallo'),(5,'Yasmine Ibrahim','yih@gmail.com','hallo');
 /*!40000 ALTER TABLE `accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,4 +102,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-22 11:00:16
+-- Dump completed on 2020-06-22 17:52:59
